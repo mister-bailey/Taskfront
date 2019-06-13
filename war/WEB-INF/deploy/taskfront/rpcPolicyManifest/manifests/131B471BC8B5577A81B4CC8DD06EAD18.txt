@@ -1,0 +1,2 @@
+serviceClass: org.bailey.taskfront.client.RemoteStoreService
+path: 58F4293A7DCB1F7DBA9F445E139E5E89.gwt.rpc

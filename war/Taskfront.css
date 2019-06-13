@@ -1,0 +1,259 @@
+/** Add css rules here for your application. */
+
+body{width:100%;}
+
+/*.gwt-ListWidget {
+	border-left:1px solid LightGrey;
+	margin-left:5px;
+	padding-left:5px;
+}*/
+.gwt-ListWidget{
+	border:none;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+.gwt-TopList {
+	width:100%;
+}
+.gwt-PopupPanel{
+	border-style:none;
+	margin:0px;
+}
+
+.gwt-Item {
+	position:relative;
+	width:100%
+}
+.gwt-Item-dragOverBefore {
+	/*border-top:2px dotted Grey;*/
+	box-shadow: 0 -2px 0 Grey;
+}
+.gwt-Item-dragOverAfter {
+	box-shadow: 0 2px 0 Grey;
+}
+.gwt-Item-selected {
+	background-color:LightBlue;
+}
+.bareTextBox {
+	padding: 0px;
+	border-style:none;
+	outline-style: none;
+	overflow: hidden;
+	resize: none;
+	font-family: sans-serif;
+	background-color:transparent;
+	width:100%;
+}
+.labelTextBox {
+	
+}
+.gwt-BareItem-dragover {
+	/*border-top:2px dotted Grey;*/
+	box-shadow: 0 -2px 0 Grey;
+}
+.listHeader {
+	border-style:none;
+	outline:0;
+	font-weight:bold;
+	box-shadow: 0;
+	margin:0;
+	background-color:transparent;
+}
+.listHeader-readonly {
+	border-style:none;
+	outline:0;
+	font-weight:bold;
+	box-shadow: 0;
+}
+.listHeader-dragover {
+	/*border-bottom:2px dotted Grey;*/
+	box-shadow: 0 2px 0 Grey;
+}
+.headerItem {
+	margin-bottom: .5em;
+}
+.gwt-Bullet {
+	color:LightGrey;
+}
+.bareTextBox:focus {
+	outline:0;
+}
+.completed {
+	text-decoration:line-through;
+	color:DarkGrey;
+}
+.prewrap {
+	whitespace:pre-wrap;
+}
+
+.subEditPanel{
+	border-style:solid;
+	border-color:LightGrey;
+	border-width:1px;
+	border-radius:4px;
+}
+
+
+.delayedAction {
+	position:relative;
+	border-radius:12px;
+	border:none;
+	/*border:1px solid LightGrey;*/
+	padding-left:5px;
+	padding-right:1px;
+	margin-left:1px;
+	margin-right:1px;
+	/*background-color:Pink;*/
+}
+.delayedAction:hover {
+	border:1px solid Black;
+}
+.actionProgress{
+	position:absolute;
+	left:0;right:0;
+	background-color:LightSkyBlue;
+	/*//border-radius:12px;*/
+	height:100%;
+	width:0%;
+	z-index:0;
+}
+.absolutePanel{
+	position:relative;
+	left:0; top:0;
+}
+
+.emptyButton {
+	color:LightGrey;
+	border:none;
+	background-color:transparent;
+	margin:0px;
+	/*padding:0px;*/
+}
+.emptyButton:focus {
+	outline:0;
+}
+.emptyButton:hover {
+	color:Black;
+}
+.emptyButton:active{
+	color:Black;
+	font-weight:bold;
+}
+.noPadding{
+	padding:0;
+}
+
+.verticalBar{
+	margin:0px 0px 0px 3px;
+	padding:0px 0px 0px 7px;
+	border-style:none none none solid;
+	border-color:LightGrey;
+	border-width:1px;
+	height:100%;
+	background-color:transparent;
+	/*width:1em;*/
+}
+.verticalBar:focus{
+	outline:0;
+}
+.verticalBar:hover{
+	border-color:Black;
+}
+.verticalBar:active{
+	padding:0px 0px 0px 6px;
+	border-color:Black;
+	border-width:2px;
+}
+
+.mainMenu{
+	color:LightGrey;
+	position:absolute;
+	/*height:2em;*/
+	z-index:1000;
+	background:transparent;
+	border:none;
+	right:0;
+	font-size:300%;
+	text-align:right;
+	/*border-style:solid none none none;
+	border-width:1px;
+	border-color:Grey;*/
+}
+.mainMenu:hover{
+	color:Black;
+	background:transparent;
+}
+.rootMenuItem{
+	font-size:x-large;
+}
+.gwt-MenuBarPopup{
+	right:0;
+    position: absolute;
+}
+
+.actionButton{
+	color:LightGrey;
+	border:2px solid LightGrey;
+	background-color:transparent;
+	border-radius:6px;
+	margin:0px;
+	/*padding:2px;*/
+}
+.actionButton:hover{
+	color:Black;
+	border:2px solid Black;
+}
+.actionButton-delete{
+	color:LightCoral;
+	border-color:LightCoral;
+}
+
+.floatRight {
+	float:right;
+}
+
+.calendar {
+	border-collapse: collapse;
+}
+.calendarCell{
+	border:1px solid LightGrey;
+	vertical-align: top;
+}
+/*.calendarCell:hover{
+	border-width:2px;
+}*/
+.calendarCellTop{
+	border-top-width:2px;
+}
+.calendarCellBottom{
+	border-bottom-width:2px;
+}
+.calendarCellLeft{
+	border-left-width:2px;
+}
+.calendarCellRight{
+	border-right-width:2px;
+}
+.calendarCellToday{
+	background-color:LightCyan;
+}
+
+.dayContainer {
+	height:8em;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+/*.dayItem {
+	height:8em;
+	max-height:8em;
+}*/
+/*.scrollList {
+	overflow-x:hidden;
+	overflow-y:auto;
+	height:100%;
+}*/
+
+/*.gwt-MenuBarPopup .menuPopupTopLeft{
+	top:-100px;
+}*/
